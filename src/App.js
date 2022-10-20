@@ -1,4 +1,5 @@
 import './App.css';
+import Showcase from './Showcase'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
           Testing
         </p>
       </header>
+      <Showcase />
     </div>
   );
 }
