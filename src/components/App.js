@@ -4,20 +4,24 @@ import Showcase from '../components/Showcase.js'
 function App() {
   let portfolio = [
     {
-        title: 'first project',
-        text: 'text for the first project and such'
+        title: 'First Project',
+        text: 'Text for the first project and such.'
     },
     {
-        title: 'the second',
-        text: 'oh just some more text for the second one'
+        title: 'The Second',
+        text: 'Oh, just some more text for the second one.'
     },
     {
-      title: 'third...',
-      text: 'getting into some beefy things with the third project, that is pretty funny'
+      title: 'Third',
+      text: 'Getting into some beefy things with the third project. That is pretty funny.'
+    },
+    {
+      title: 'Fourth Test',
+      text: 'Testing purposes and such for this fourth little piece of text.'
     }
 ]
   return (
-    <div className="App">
+    <div className="portfolio-container">
       {portfolio.map((p) => {
         return <Showcase title={p.title} text={p.text} />
       })}
