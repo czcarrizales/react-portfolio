@@ -18,11 +18,6 @@ function App() {
 ]
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Testing
-        </p>
-      </header>
       {portfolio.map((p) => {
         return <Showcase title={p.title} text={p.text} />
       })}
