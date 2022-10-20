@@ -1,0 +1,13 @@
+.showcase-container {
+    height: 500px;
+    width: 615px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 25px;
+    border: solid 2px black;
+}
+
+img {
+    width: 90%;
+}
