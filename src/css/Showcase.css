@@ -1,7 +1,11 @@
 .showcase-container {
-    height: 301px;
-    width: 435px;
+    height: 400px;
+    width: 525px;
     background-color: black;
     color: white;
     text-align: center;
+}
+
+img {
+    width: 75%;
 }

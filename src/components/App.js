@@ -10,6 +10,7 @@ function App() {
         </p>
       </header>
       <Showcase />
+      <Showcase />
     </div>
   );
 }
