@@ -1,12 +1,12 @@
 import React from "react";
 import '../css/Showcase.css';
 
-export default function Showcase() {
+export default function Showcase(props) {
     return (
         <div className="showcase-container">
-            <h1>Title</h1>
+            <h1>{props.title}</h1>
             <img src="https://wallpaperaccess.com/full/2637581.jpg"></img>
-            <p>Text where the description would be. This was made by whatever. Created by these people and such.</p>
+            <p>{props.text}</p>
             <a href="#">Github Link</a>
         </div>
     )
