@@ -1,0 +1,43 @@
+
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444444;
+    font-weight: 300;
+}
+
+.hero-img {
+    width: 345px;
+    margin-top: 25px;
+    border: solid 2px black;
+    border-radius: 50%;
+}
+
+.hero-img-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.hero-img-container p {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.hero-text {
+    text-align: center;
+    width: 50%;
+}
+
+.hero-text p {
+    font-size: 30px;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+}

@@ -1,6 +1,7 @@
 import "../css/App.css";
 import Showcase from "../components/Showcase";
 import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
 
 function App() {
   let portfolio = [
@@ -24,6 +25,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Hero />
       <div className="portfolio-container">
         {portfolio.map((p) => {
           return <Showcase title={p.title} text={p.text} />;
