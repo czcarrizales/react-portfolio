@@ -6,10 +6,11 @@
     justify-content: center;
     color: #444444;
     font-weight: 300;
+    height: 850px;
 }
 
 .hero-img {
-    width: 345px;
+    width: 450px;
     margin-top: 25px;
     border: solid 2px black;
     border-radius: 50%;
@@ -27,6 +28,7 @@
 .hero-img-container p {
     margin-top: 10px;
     font-size: 50px;
+    color: black;
 }
 
 .hero-text {
@@ -35,9 +37,17 @@
 }
 
 .hero-text p {
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .hero-text h2 {
-    font-size: 40px;
+    font-size: 70px;
+}
+
+.hero-text .complex {
+    color: #c95243;
+}
+
+.hero-text .simple {
+    color: #44A1A0;
 }
