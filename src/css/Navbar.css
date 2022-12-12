@@ -5,7 +5,7 @@
     align-items: center;
     text-align: center;
     background-color: rgb(233, 233, 233);
-    height: 40px;
+    height: 60px;
 }
 
 nav {
@@ -21,6 +21,7 @@ nav {
 li,
 .navLinks a {
     display: flex;
+    justify-content: center;
     align-items: center;
     color: black;
     text-decoration: none;
@@ -29,6 +30,12 @@ li,
 
 .navLinks a {
     margin-right: 1em;
+    height: 100%;
+    width: 75px;
+}
+
+.navLinks a:hover {
+    background-color: rgb(255, 255, 255);
 }
 
 .logo {
