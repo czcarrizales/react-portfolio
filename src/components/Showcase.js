@@ -5,9 +5,9 @@ export default function Showcase(props) {
     return (
         <div className="showcase-container">
             <h3>{props.title}</h3>
-            <img src="https://wallpaperaccess.com/full/2637581.jpg"></img>
+            <img src={props.image}></img>
             <p>{props.text}</p>
-            <a href="#" className="projectLink">Project's Github Link</a>
+            <a href="#" className="projectLink">Github Link</a>
         </div>
     )
 }
