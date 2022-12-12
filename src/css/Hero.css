@@ -2,25 +2,24 @@
 
 .hero-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     color: #444444;
     font-weight: 300;
-    height: 850px;
+    text-align: center;
 }
 
 .hero-img {
-    width: 450px;
     margin-top: 25px;
     border: solid 2px black;
     border-radius: 50%;
+    width: 35%;
 }
 
 .hero-img-container {
-    display: flex;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
@@ -33,15 +32,16 @@
 
 .hero-text {
     text-align: center;
-    width: 50%;
 }
 
 .hero-text p {
-    font-size: 32px;
+    font-size: 1rem;
+    max-width: 450px;
+    line-height: 1.75em;
 }
 
 .hero-text h2 {
-    font-size: 70px;
+    font-size: 1rem;
 }
 
 .hero-text .complex {
