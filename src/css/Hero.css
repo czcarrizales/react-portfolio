@@ -13,7 +13,7 @@
     margin-top: 25px;
     border: solid 2px black;
     border-radius: 50%;
-    width: 50%;
+    width: 40%;
 }
 
 .hero-img-container {
@@ -43,7 +43,7 @@
 }
 
 h1 {
-    font-size: 2.3rem;
+    font-size: 3.2rem;
     margin-bottom: .3em;
 }
 
