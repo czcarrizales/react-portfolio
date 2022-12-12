@@ -8,20 +8,24 @@ import Footer from '../components/Footer'
 function App() {
   let portfolio = [
     {
-      title: "First Project",
-      text: "Text for the first project and such.",
+      title: "Burning Letters",
+      text: "Create a temporary message and share it with the world to see.",
+      image: "https://images.unsplash.com/photo-1532045974417-fe87b46db62f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     },
     {
-      title: "The Second",
-      text: "Oh, just some more text for the second one.",
+      title: "Recipe App",
+      text: "Allows users to store recipes.",
+      image: "https://images.unsplash.com/photo-1556909211-36987daf7b4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     },
     {
-      title: "Third",
-      text: "Getting into some beefy things with the third project. That is pretty funny.",
+      title: "Game App",
+      text: "Choose your own adventure type of game.",
+      image: "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
     },
     {
-      title: "Fourth Test",
-      text: "Testing purposes and such for this fourth little piece of text.",
+      title: "Music Blog",
+      text: "Blog about different types of music where users are able to comment freely.",
+      image: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     },
   ];
   return (
@@ -32,7 +36,7 @@ function App() {
       <div className="portfolio-container">
         <h2>PROJECTS</h2>
         {portfolio.map((p) => {
-          return <Showcase title={p.title} text={p.text} />;
+          return <Showcase title={p.title} text={p.text} image={p.image} />;
         })}
       </div>
       <Footer />
