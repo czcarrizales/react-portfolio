@@ -3,6 +3,7 @@ import Showcase from "../components/Showcase";
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import About from '../components/About'
+import Footer from '../components/Footer'
 
 function App() {
   let portfolio = [
@@ -33,6 +34,7 @@ function App() {
           return <Showcase title={p.title} text={p.text} />;
         })}
       </div>
+      <Footer />
     </div>
   );
 }
