@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="hero-container">
             <div className="hero-img-container">
                 <img className="hero-img" src={chazzHeroPic}></img>
-                <p>Chazz Carrizales</p>
+                <h1>Chazz Carrizales</h1>
             </div>
             <div className="hero-text">
                 <h2>Making Apps With <span className="complex">Determination</span> And <span className="simple">Perseverance</span></h2>

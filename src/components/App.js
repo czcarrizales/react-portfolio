@@ -30,6 +30,7 @@ function App() {
       <Hero />
       <About />
       <div className="portfolio-container">
+        <h2>PROJECTS</h2>
         {portfolio.map((p) => {
           return <Showcase title={p.title} text={p.text} />;
         })}
