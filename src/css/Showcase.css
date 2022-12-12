@@ -11,6 +11,7 @@
 
 img {
     width: 80%;
+    max-width: 600px;
 }
 
 .showcase-container p {
