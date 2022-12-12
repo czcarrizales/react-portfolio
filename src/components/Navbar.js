@@ -6,7 +6,7 @@ import chazzLogo from "../images/chazz-logo.png";
 export default function Navbar() {
   return (
     <div className="navbar-container">
-      <a href="#">
+      <a href="#" className="logo">
         Chazz
       </a>
       <nav>
