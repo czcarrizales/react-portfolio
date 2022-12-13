@@ -16,12 +16,15 @@ img {
 
 .showcase-container p {
     padding: 1em;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #444444;
 }
 
 .showcase-container h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: .8em;
+    color: #444444;
 }
 
 .projectLink {
