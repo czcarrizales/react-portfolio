@@ -11,7 +11,7 @@ export default function Hero() {
             </div>
             <div className="hero-text">
                 {/* <h2>Making Apps With <span className="complex">Determination</span> And <span className="simple">Perseverance</span></h2> */}
-                <p>Bunch of text here describing myself and showing why I should be hired and such. Second sentence to really sell myself and all that? Maybe a third sentence, I'm not entirely sure to be honest.</p>
+                <p>Full Stack web developer based in California. Over five years of experience creating applications. MEAN and MERN stacks are my speciality.</p>
                 <div className="icons">
                 <i class="fa-brands fa-angular fa-2x"></i>
                 <i class="fa-brands fa-react fa-2x"></i>
