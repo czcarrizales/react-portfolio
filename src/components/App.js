@@ -33,7 +33,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <h2>PROJECTS</h2>
+      <h2 className="projects">PROJECTS</h2>
       <div className="portfolio-container">
         {portfolio.map((p) => {
           return <Showcase title={p.title} text={p.text} image={p.image} />;
