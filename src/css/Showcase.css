@@ -1,7 +1,6 @@
 .showcase-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -10,8 +9,9 @@
 }
 
 img {
-    width: 80%;
-    max-width: 600px;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
 }
 
 .showcase-container p {
@@ -44,4 +44,10 @@ img {
     font-weight: bold;
     border-radius: 5px;
     text-transform: uppercase;
+}
+
+@media(min-width: 800px) {
+    .showcase-container {
+        width: 50%;
+    }
 }

@@ -75,3 +75,36 @@ h1 {
     width: 100%;
     margin-bottom: 4em;
 }
+
+@media (min-width: 1000px) {
+    .hero-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 4em;
+    }
+
+    .hero-img-container {
+        width: 50%;
+    }
+
+    .hero-img {
+        max-width: none;
+        max-width: 1000px;
+    }
+
+    .hero-text {
+        width: 50%;
+    }
+
+    .hero-text p {
+        font-size: 1.7rem;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 5rem;
+        padding: 0;
+        margin: 0;
+    }
+}
