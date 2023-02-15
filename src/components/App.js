@@ -4,6 +4,8 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Footer from '../components/Footer'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Contact from "./Contact";
 
 function App() {
   let portfolio = [
@@ -27,9 +29,16 @@ function App() {
     },
   ];
   return (
+    
     <div>
+      <BrowserRouter>
       <Navbar />
-      <Hero />
+
+    <Routes>
+      {/* <Route path="/contact" element={<Contact/>} /> */}
+      <Route path='/' element={(
+        <div>
+<Hero />
       <About />
       <h2 className="projects">PROJECTS</h2>
       <div className="portfolio-container">
@@ -37,7 +46,13 @@ function App() {
           return <Showcase title={p.title} text={p.text} image={p.image} githubLink={p.githubLink} />;
         })}
       </div>
-      <Footer />
+        </div>
+        
+      )} />
+    </Routes>
+    <Footer />
+    </BrowserRouter>
+      
     </div>
   );
 }
