@@ -10,13 +10,13 @@ import Contact from "./Contact";
 function App() {
   let portfolio = [
     {
-      title: "Burning Letters",
+      title: "Burning Letters (In Progress)",
       text: "Create a temporary message and share it with the world to see.",
       image: "images/burningletter.png",
       githubLink: "https://github.com/czcarrizales/burning-letters-project"
     },
     {
-      title: "Quiz App",
+      title: "Quiz App (In Progress)",
       text: "Create your own quizzes, and play other quizzes!",
       image: "images/quizgame.png",
       githubLink: "https://github.com/czcarrizales/chazz-quiz-project"
