@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #444444;
+    color: black;
+    background: white;
+
     font-weight: 300;
     text-align: center;
 }
