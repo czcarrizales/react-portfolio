@@ -7,7 +7,8 @@ export default function Showcase(props) {
             <h3>{props.title}</h3>
             <img src={props.image}></img>
             <p>{props.text}</p>
-            <a href={props.githubLink} className="projectLink">Github Link</a>
+            <a className="link" href={props.websiteLink}>Visit</a>
+            <a href={props.githubLink} className="link githubLink">Github Link</a>
         </div>
     )
 }
