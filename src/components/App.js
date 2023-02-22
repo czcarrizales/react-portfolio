@@ -10,10 +10,18 @@ import Contact from "./Contact";
 function App() {
   let portfolio = [
     {
-      title: "Burning Letters (In Progress)",
+      title: "Burning Letters",
       text: "Create a temporary message and share it with the world to see.",
       image: "images/burningletter.png",
+      websiteLink: "https://burning-letters.vercel.app/",
       githubLink: "https://github.com/czcarrizales/burning-letters-project"
+    },
+    {
+      title: "Tamagotchi Clone",
+      text: "Adopt, play with, and feed your pet! You can even see other pets put up for adoption by other users!",
+      image: "images/tamagotchi-clone.png",
+      websiteLink: "https://tamagotchi-clone.vercel.app/",
+      githubLink: "https://github.com/czcarrizales/tamagotchi-clone"
     },
     {
       title: "Quiz App (In Progress)",
@@ -21,12 +29,7 @@ function App() {
       image: "images/quizgame.png",
       githubLink: "https://github.com/czcarrizales/chazz-quiz-project"
     },
-    {
-      title: "Tamagotchi Clone (In Progress)",
-      text: "Adopt, play with, and feed your pet! You can even see other pets put up for adoption by other users!",
-      image: "images/tamagotchi-clone.png",
-      githubLink: "https://github.com/czcarrizales/tamagotchi-clone"
-    },
+    
   ];
   return (
     
