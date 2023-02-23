@@ -9,7 +9,7 @@ export default function Showcase(props) {
             <p>{props.text}</p>
             <div className="showcase-links">
             <a className="link" href={props.websiteLink}>Visit</a>
-            <a href={props.githubLink} className="link githubLink">Github Link</a>
+            <a href={props.githubLink} className="link githubLink">Github</a>
             </div>
             
         </div>
