@@ -1,23 +1,19 @@
 .about-container {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
     flex-direction: column;
     color: white;
-    width: 100%;
-    padding: 3em 1.5em;
+    border: 1px solid red;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 h2 {
-    text-align: center;
     font-size: 2.2rem;
     margin-bottom: .2em;
 }
 
 .about-container p {
-    padding: .8em;
     font-size: 1.3rem;
-    text-align: center;
     font-weight: 300;
     max-width: 450px;
     line-height: 1.75em;
