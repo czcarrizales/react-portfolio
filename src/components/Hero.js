@@ -6,7 +6,7 @@ export default function Hero() {
     return (
         <div className="hero-container">
             <div className="hero-img-container">
-                <img className="hero-img" src={chazzHeroPic}></img>
+                {/* <img className="hero-img" src={chazzHeroPic}></img> */}
                 <h1>CHAZZ CARRIZALES</h1>
             </div>
             <div className="hero-text">
