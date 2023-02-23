@@ -11,25 +11,35 @@ img {
 }
 
 .showcase-container p {
-    font-size: 1.2rem;
-    color: #444444;
+    font-size: .875rem;
+    font-weight: 600;
+    color: #FFFFFF;
 }
 
 .showcase-container h3 {
-    font-size: 1.8rem;
+    font-size: 1rem;
     margin-bottom: .8em;
-    color: #444444;
+    font-weight: 600;
+    color: #E5E2B8;
+    text-transform: uppercase;
+}
+
+.showcase-links {
+    display: flex;
+    width: 100%;
+    border: 1px solid green;
+    text-align: center;
 }
 
 .link {
-    display: flex;
+    flex: 1 1 0px;
     font-size: .9rem;
-    background-color: rgb(0, 12, 116);
+    background-color: #FFF04D;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .githubLink {
