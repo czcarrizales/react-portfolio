@@ -43,8 +43,8 @@ function App() {
         <div>
 <Hero />
       <About />
-      <h2 className="projects">PROJECTS</h2>
       <div className="portfolio-container">
+      <h2 className="projects">PROJECTS</h2>
         {portfolio.map((p) => {
           return <Showcase title={p.title} text={p.text} image={p.image} githubLink={p.githubLink} websiteLink={p.websiteLink} />;
         })}
