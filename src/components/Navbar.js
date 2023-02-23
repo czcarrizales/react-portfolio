@@ -12,15 +12,15 @@ export default function Navbar() {
       </Link>
       <nav>
         <ul className="navLinks">
-          {/* <li>
-            <a href="#">About</a>
-          </li> */}
-          {/* <li>
-            <a href="#">Articles</a>
-          </li> */}
-          {/* <li>
-            <Link to="/contact">Contact</Link>
-          </li> */}
+          <li>
+            <a href="#">ABOUT</a>
+          </li>
+          <li>
+            <a href="#">JOURNEY</a>
+          </li>
+          <li>
+            <Link to="/contact">CONTACT</Link>
+          </li>
         </ul>
       </nav>
     </div>
