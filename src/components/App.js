@@ -46,7 +46,7 @@ function App() {
       <h2 className="projects">PROJECTS</h2>
       <div className="portfolio-container">
         {portfolio.map((p) => {
-          return <Showcase title={p.title} text={p.text} image={p.image} githubLink={p.githubLink} />;
+          return <Showcase title={p.title} text={p.text} image={p.image} githubLink={p.githubLink} websiteLink={p.websiteLink} />;
         })}
       </div>
         </div>
