@@ -7,14 +7,16 @@
     margin-right: 2em;
 }
 
-h2 {
-    font-size: 2.2rem;
+.about-container h2 {
+    font-size: .875rem;
+    font-weight: 600;
     margin-bottom: .2em;
+    color: #E5DE8A;
 }
 
 .about-container p {
-    font-size: 1.3rem;
-    font-weight: 300;
+    font-size: .875rem;
+    font-weight: 500;
     max-width: 450px;
     line-height: 1.75em;
 }
