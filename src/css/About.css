@@ -17,8 +17,7 @@
 .about-container p {
     font-size: .875rem;
     font-weight: 500;
-    max-width: 450px;
-    line-height: 1.75em;
+    line-height: 1.5;
 }
 
 @media (min-width: 1000px) {
