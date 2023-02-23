@@ -1,19 +1,17 @@
 .portfolio-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin-top: 1em;
-}
-
-.portfolio-container h2 {
-    font-size: 2.2rem;
-    text-align: center;
-    margin-bottom: .5em;
-    font-weight: bold;
+    color: white;
+    border: 1px solid red;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .projects {
-    margin-top: 1em;
+    font-size: .875rem;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+    color: #E5DE8A;
 }
 
 @media (min-width: 800px) {
