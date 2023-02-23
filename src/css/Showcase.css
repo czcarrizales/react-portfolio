@@ -18,7 +18,8 @@ img {
 
 .showcase-container h3 {
     font-size: 1rem;
-    margin-bottom: .8em;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
     font-weight: 600;
     color: #E5E2B8;
     text-transform: uppercase;
@@ -35,18 +36,21 @@ img {
 .link {
     flex: 1 1 0px;
     font-size: .9rem;
+    font-weight: 900;
     background-color: #FFF04D;
     color: black;
     text-decoration: none;
-    font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     padding: 1.1em;
+    margin-right: 1.5em;
 }
 
 .githubLink {
     background-color: #1A1A1A;
     color: white;
+    margin-right: 0;
+    margin-left: 1.5em;
 }
 
 @media(min-width: 800px) {
