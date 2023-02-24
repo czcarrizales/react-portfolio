@@ -1,36 +1,33 @@
-.navbar-container {
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    height: 60px;
-}
-
-nav {
-    height: 100%;
+    font-size: .875rem;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 4em;
 }
 
 .navLinks {
     display: flex;
     list-style: none;
-    height: 100%;
+    width: 100%;
 }
 
-li,
-.navLinks a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+li {
+    flex: 1 1 0px;
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+}
+
+nav ul li:nth-child(2) {
+    margin-left: 2em;
 }
 
 .navLinks a {
-    margin-right: 1em;
-    height: 100%;
-    width: 75px;
+    text-decoration: none;
 }
 
 .navLinks a:hover {
@@ -38,8 +35,6 @@ li,
 }
 
 .logo {
-    font-size: 1.5rem;
     text-decoration: none;
     color: white;
-    margin-left: 1em;
 }
