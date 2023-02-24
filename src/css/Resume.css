@@ -1,0 +1,23 @@
+.resume-container {
+    margin-top: 5em;
+    text-align: center;
+}
+
+.resume-container h1 {
+    margin-bottom: 1em;
+}
+
+.resume-document {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-container iframe {
+    width: 90%;
+    min-height: 1200px;
+}
+
+.textLayer {
+    display: none;
+}
