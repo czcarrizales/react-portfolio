@@ -4,10 +4,14 @@
     color: rgb(0, 0, 0);
 }
 
+.image-container {
+    height: 300px;
+}
+
 img {
     width: 100%;
-    max-width: 500px;
-    margin-top: 2.5em;
+    height: 100%;
+    object-fit: contain;
 }
 
 .showcase-container p {
