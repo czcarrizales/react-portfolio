@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Contact from "./Contact";
 import Journey from "./Journey"
+import Resume from "./Resume";
 
 function App() {
   let portfolio = [
@@ -60,6 +61,7 @@ function App() {
       )} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/journey" element={<Journey />} />
+      <Route path="/resume" element={<Resume/>} />
     </Routes>
     <Footer />
     </BrowserRouter>

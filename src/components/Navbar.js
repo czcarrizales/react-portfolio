@@ -13,11 +13,11 @@ export default function Navbar() {
         CHAZZ
       </Link>
           </li>
-          {/* <li>
-            <a href="#">ABOUT</a>
-          </li> */}
           <li>
             <Link to="/journey">JOURNEY</Link>
+          </li>
+          <li>
+          <Link to={"/resume"}>RESUME</Link>
           </li>
           <li>
             <Link to="/contact">CONTACT</Link>
