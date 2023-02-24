@@ -13,7 +13,7 @@ function App() {
     {
       title: "Burning Letters",
       text: "Create a temporary message and share it with the world to see.",
-      image: "images/burningletter.png",
+      image: "images/burningletters.png",
       websiteLink: "https://burning-letters.vercel.app/",
       githubLink: "https://github.com/czcarrizales/burning-letters-project"
     },
