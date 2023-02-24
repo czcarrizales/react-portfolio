@@ -32,12 +32,24 @@ hr {
     }
 
     .portfolio-container h2 {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     .all-portfolios {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1000px) {
+    .portfolio-container {
+        margin-left: 15em;
+        margin-right: 15em;
+    }
+
+    hr {
+        margin-left: 20em;
+        margin-right: 20em;
     }
 }
