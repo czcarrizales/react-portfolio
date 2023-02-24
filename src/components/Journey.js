@@ -5,8 +5,8 @@ export default function Journey() {
     return (
         <div className="journey-container">
             <h1>My Journey</h1>
-            <h2>Childhood</h2>
-            <p>Ever since I was a child, I've always had my face buried in some type of technology. Computers, TVs, game consoles, and everything in between. My family always told me that I had a future in tech, and while it seemed exciting, I never really took it seriously.</p>
+            <h2>Daydreams</h2>
+            <p>Ever since I was a child, I've always had my face buried in some type of technology. Computers, TVs, game consoles, and everything in between. Every minute spent with technology was like I was being drip fed high concentrated amounts of dopamine. My family always told me that I had a future in tech, and while it seemed exciting, I never really took it seriously. I would just consume all that technology had to offer, because that's what was put in front of me. I would constantly daydream about creating that next big video game, website, or animation with the latest tools, but as a child, you kind of go through phases, always discovering. I didn't even have my own computer to do the things I always dreamt of doing, so I just continued on living what are supposed to be "the best times of your life."</p>
             <h2>Too Many Years Later...</h2>
             <p>Even with the thousands of hours of experience addicted to games and phone apps, I still never truly applied myself in creating something with technology, whether that be a game, website, or any kind of software, though I dabbled in it here and there. Life is just like that sometimes.</p>
             <h2>What am I doing?</h2>
