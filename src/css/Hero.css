@@ -87,10 +87,6 @@
         font-size: 4rem;
     }
 
-    .hero-img {
-        margin-left: 0;
-    }
-
     .hero-text p {
         font-size: 2rem;
         max-width: none;
@@ -111,6 +107,7 @@
     .hero-img {
         width: 50%;
         margin: auto;
+        margin-top: 0;
         max-width: 500px;
     }
 
