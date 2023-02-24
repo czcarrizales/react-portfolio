@@ -9,9 +9,19 @@
 .projects {
     font-size: .875rem;
     font-weight: 600;
-    margin-top: 5em;
     margin-bottom: 0.2em;
     color: #E5DE8A;
+}
+
+hr {
+    color: #1B1800;
+    background-color: #1B1800;
+    height: 1px;
+    border: none;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 @media (min-width: 800px) {
