@@ -13,9 +13,9 @@ export default function Navbar() {
         CHAZZ
       </Link>
           </li>
-          <li>
+          {/* <li>
             <a href="#">ABOUT</a>
-          </li>
+          </li> */}
           <li>
             <Link to="/journey">JOURNEY</Link>
           </li>
