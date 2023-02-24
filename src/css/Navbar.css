@@ -1,7 +1,6 @@
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     text-align: center;
     font-size: .875rem;
@@ -23,7 +22,7 @@ li {
 }
 
 nav ul li:nth-child(2) {
-    margin-left: 2em;
+    margin-left: 5em;
 }
 
 .navLinks a {
