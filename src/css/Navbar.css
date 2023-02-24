@@ -21,10 +21,6 @@ li {
     text-decoration: none;
 }
 
-nav ul li:nth-child(2) {
-    margin-left: 5em;
-}
-
 .navLinks a {
     text-decoration: none;
 }
