@@ -6,12 +6,13 @@ import chazzLogo from "../images/chazz-logo.png";
 
 export default function Navbar() {
   return (
-    <div className="navbar-container">
-      <Link to="/" className="logo">
-        CHAZZ
-      </Link>
       <nav>
         <ul className="navLinks">
+          <li>
+          <Link to="/" className="logo">
+        CHAZZ
+      </Link>
+          </li>
           <li>
             <a href="#">ABOUT</a>
           </li>
@@ -23,6 +24,5 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
-    </div>
   );
 }
