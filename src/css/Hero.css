@@ -83,13 +83,19 @@
         margin-right: 15em;
     }
 
+    .hero-text {
+        text-align: center;
+    }
+
     .hero-container h1 {
+        text-align: center;
         font-size: 4rem;
+        color: red;
     }
 
     .hero-text p {
         font-size: 2rem;
-        max-width: none;
+        max-width: 100%;
     }
 }
 
