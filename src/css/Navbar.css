@@ -30,11 +30,13 @@ nav ul li:nth-child(2) {
     text-decoration: none;
 }
 
-.navLinks a:hover {
-    background-color: rgb(255, 255, 255);
-}
-
 .logo {
     text-decoration: none;
     color: white;
+}
+
+@media (hover: hover) {
+    .navLinks a:hover {
+        color: yellow;
+    }
 }
