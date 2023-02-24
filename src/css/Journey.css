@@ -13,3 +13,10 @@
     margin-top: 1em;
     margin-bottom: .4em;
 }
+
+@media (min-width: 1000px) {
+    .journey-container {
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+}

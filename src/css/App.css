@@ -26,7 +26,18 @@ hr {
 
 @media (min-width: 800px) {
     .portfolio-container {
-        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+
+    .portfolio-container h2 {
+        font-size: 4rem;
+    }
+
+    .all-portfolios {
+        display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
 }

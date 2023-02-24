@@ -21,11 +21,16 @@
 
 @media (min-width: 1000px) {
     .about-container {
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        margin-left: 10em;
+        margin-right: 10em;
     }
 
     .about-container h2 {
         font-size: 4rem;
+    }
+
+    .about-container p {
+        font-size: 1.9rem;
     }
 }
