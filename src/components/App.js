@@ -42,7 +42,9 @@ function App() {
       <Route path='/' element={(
         <div>
 <Hero />
+<hr></hr>
       <About />
+      <hr></hr>
       <div className="portfolio-container">
       <h2 className="projects">PROJECTS</h2>
         {portfolio.map((p) => {
