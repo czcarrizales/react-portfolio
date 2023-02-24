@@ -5,10 +5,7 @@ import chazzHeroPic from '../images/chazz-portfolio-picture.jpg'
 export default function Hero() {
     return (
         <div className="hero-container">
-            <div className="hero-img-container">
                 <img className="hero-img" src={chazzHeroPic}></img>
-                
-            </div>
             <div className="hero-text">
             <h1>CHAZZ CARRIZALES</h1>
                 {/* <h2>Making Apps With <span className="complex">Determination</span> And <span className="simple">Perseverance</span></h2> */}
