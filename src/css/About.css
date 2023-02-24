@@ -19,18 +19,25 @@
     line-height: 1.5;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
     .about-container {
-        flex-direction: column;
         margin-left: 10em;
         margin-right: 10em;
     }
+}
+
+@media (min-width: 1000px) {
+    .about-container {
+        flex-direction: column;
+        margin-left: 15em;
+        margin-right: 15em;
+    }
 
     .about-container h2 {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     .about-container p {
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
 }
