@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div className="about-container">
             <h2>ABOUT ME</h2>
-            <p>I cried over not getting a computer when I was younger, and from then on I knew I was destined to be heavily involved with computers in some shape or form. Ever since I was a child, my eyes would always light up when I saw some inspiring art piece, whether that be through paintings, drawings, writing, or even web applications. Once I realized that I could scratch that creative itch with web development, I decided to sit down and put all I could into learning this craft. 25 years late, of course.</p>
+            <p>I'm a software developer based in California with experience working with MERN and MEAN stacks for website development. I am constantly looking at other's designs for inspiration, both with a frontend and backend mindset. Knowledge is key, and I'm always striving to learn about everything I can, whether it's code or non-code related. When I'm not an inch away from my computer screen hammering away at a project, I like to relax by listening to music with my noise-cancelling headphones or reading something that will teach me to be a more open-minded and fuller person.</p>
         </div>
     )
 }
