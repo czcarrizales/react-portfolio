@@ -31,7 +31,13 @@ function App() {
       image: "images/quizgame.png",
       githubLink: "https://github.com/czcarrizales/chazz-quiz-project"
     },
-    
+    {
+      title: "Social Media App",
+      text: "Mockup of a social media app.",
+      image: 'images/socialmediaapp.png',
+      websiteLink: "https://social-media-app-czcarrizales.vercel.app/",
+      githubLink: "https://github.com/czcarrizales/social-media-app"
+    }
   ];
   return (
     
