@@ -9,7 +9,7 @@ export default function Hero() {
             <div className="hero-text">
             <h1>CHAZZ CARRIZALES</h1>
                 {/* <h2>Making Apps With <span className="complex">Determination</span> And <span className="simple">Perseverance</span></h2> */}
-                <p> With over three years of experience creating applications and websites, I'm ready to do whatever it takes to make sure your projects come out in stellar shape.</p>
+                <p> With lots of experience creating applications and websites, I'm ready to do whatever it takes to make sure your projects come out in stellar shape.</p>
                 <div className="icons">
                 <i class="fa-brands fa-angular fa-2x"></i>
                 <i class="fa-brands fa-react fa-2x"></i>
